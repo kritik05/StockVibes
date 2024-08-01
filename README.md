@@ -26,5 +26,37 @@ StockVibe is a responsive web application designed for managing stock portfolios
 - **API**: NewsAPI
 - **Validation**: Zod
 
+## Installation
 
+1. **Clone the repository:**
 
+   ```bash
+   git clone https://github.com/yourusername/stockvibe.git
+   cd stockvibe
+2. Install dependencies:
+   ```bash
+   cd backend
+   npm install
+   cd ..
+   cd frontend
+   npm install
+   cd ..
+3. Set up environment variables:
+   Create a .env file in the frontend directory with the following variables:
+     ```bash
+     VITE_EMAILJS_PUBLIC_KEY="your_emailjs_public_key"
+     VITE_EMAILJS_SERVICE_ID="your_emailjs_service_id"
+     VITE_EMAILJS_TEMPLATE_ID="your_emailjs_template_id"
+     VITE_FIREBASE_API_KEY="your_firebase_api_key"
+     VITE_FIREBASE_AUTH_DOMAIN="your_firebase_auth_domain"
+     VITE_FIREBASE_PROJECT_ID="your_firebase_project_id"
+     VITE_FIREBASE_STORAGE_BUCKET="your_firebase_storage_bucket"
+     VITE_FIREBASE_MESSAGING_SENDER_ID="your_firebase_messaging_sender_id"
+     VITE_FIREBASE_APP_ID="your_firebase_app_id"
+     VITE_FIREBASE_MEASURMENT_ID="your_firebase_measurement_id"
+     VITE_NEWSAPI_KEY="your_newsapi_key"
+     VITE_API_BASE_URL="your backend port address"
+ create a .env in backend:
+     ```bash
+      
+      JWT_SECRET="stockVibe"
