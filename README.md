@@ -60,3 +60,28 @@ StockVibe is a responsive web application designed for managing stock portfolios
      ```bash
       
       JWT_SECRET="stockVibe"
+4.Run the application:
+  To start the backend server:
+    ```bash
+      
+      cd backend
+      node index.js
+  To start frontend server:
+  open a new terminal with stockVibe as root folder:
+     ```bash
+     
+        cd frontend
+        npm run dev
+        
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## Contact
+For any questions or feedback, please contact aggarwalkritik@gmail.com.
+
+
+### Additional Notes:
+- Make sure to adjust the environment variable settings and paths as needed.
+- Update the placeholders with your actual project details.
+- Ensure you have both the `backend` and `frontend` directories correctly set up with their respective `package.json` files.
+
