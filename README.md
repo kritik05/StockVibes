@@ -2,6 +2,11 @@
 
 StockVibe is a responsive web application designed for managing stock portfolios. The application allows users to add their shares and stay informed with the latest news and updates on selected stocks through the integration of NewsAPI.
 
+
+![StockVibe Screenshot](frontend/src/assets/dashboard.png)
+![StockVibe Screenshot](frontend/src/assets/news.png)
+![StockVibe Screenshot](frontend/src/assets/timeline.png)
+
 ## Features
 
 - **Portfolio Management**: Add and manage your stock shares seamlessly.
