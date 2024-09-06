@@ -59,9 +59,7 @@ export const News = () => {
 
    const fetchMarketMoves = () => {
     const url = `https://newsapi.org/v2/top-headlines?category=business&pageSize=20&language=en&apiKey=${apiKey}`;
-    axios.get(url,  headers: {
-    'Upgrade': 'HTTP/2.0'
-  })
+    axios.get(url)
       .then(response => {
         const filteredA=filterNews(response.data.articles)
         setMarketMoves(filteredA)
