@@ -57,10 +57,13 @@ export const News = () => {
       .catch(error => console.error("Error fetching news:", error));
   };
 
-  const fetchMarketMoves = () => {
-    const url = `https://newsapi.org/v2/top-headlines?category=business&country=in&pageSize=10&language=en&apiKey=${apiKey}`;
+   const fetchMarketMoves = () => {
+    const url = `https://newsapi.org/v2/top-headlines?category=business&pageSize=20&language=en&apiKey=${apiKey}`;
     axios.get(url)
-      .then(response => setMarketMoves(response.data.articles))
+      .then(response => {
+        const filteredA=filterNews(response.data.articles)
+        setMarketMoves(filteredA)
+  })
       .catch(error => console.error("Error fetching market moves:", error));
   };
 
